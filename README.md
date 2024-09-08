@@ -25,7 +25,7 @@ NEXUSCINE é uma plataforma de pesquisa dedicada a filmes de ficção científic
 - **Font Awesome**: Ícones usados para melhorar a usabilidade e aparência da interface.
 
 ## Estrutura do Projeto
-
+```
 ├── index.html         # Página principal
 ├── css
 │   └── style.css      # Estilos da página
@@ -34,6 +34,7 @@ NEXUSCINE é uma plataforma de pesquisa dedicada a filmes de ficção científic
 │   └── script.js      # Lógica principal de busca e interação
 └── assets
     └── cinema.png     # Ícone da página
+```
 
 
 ## Como Usar
