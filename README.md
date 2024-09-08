@@ -43,6 +43,7 @@ NEXUSCINE é uma plataforma de pesquisa dedicada a filmes de ficção científic
    ```bash
    git clone https://github.com/seu-usuario/NEXUSCINE.git
 2. Navegue até o diretório do projeto:
+   ```
    cd NEXUSCINE
 
   Abra o arquivo index.html no navegador para ver o site em funcionamento.
