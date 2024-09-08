@@ -49,5 +49,7 @@ NEXUSCINE é uma plataforma de pesquisa dedicada a filmes de ficção científic
 
 ## Melhorias Futuras
 Adicionar mais informações sobre os filmes, como trailers e reviews 🎥
+
 Implementar filtros avançados (por gênero, diretor, ano, etc.)  🔎
+
 Melhorar a integração com APIs de filmes para exibir resultados mais precisos 📈
