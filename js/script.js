@@ -1,29 +1,33 @@
 // Função para buscar e exibir os resultados da pesquisa
 function pesquisar() {
-    // Obtém o elemento da página onde vamos mostrar os resultados
+    // Obtém o elemento da página onde os resultados da pesquisa serão exibidos
     let section = document.getElementById("resultado-pesquisa");
 
+    // Obtém o valor do campo de pesquisa e remove espaços em branco extras
     let campoPesquisa = document.getElementById("campo-pesquisa").value.trim();
 
-    // Prepara uma string vazia para armazenar o HTML dos resultados
+    // Prepara uma string vazia para armazenar o HTML dos resultados da pesquisa
     let resultados = '';
 
     // Verifica se o campo de pesquisa está vazio
     if (campoPesquisa === '') {
-        section.innerHTML = "<p>Nada foi encontrado. É preciso digitar o nome de um filme ou sipnose.</p>";
+        // Se estiver vazio, exibe uma mensagem informando que a pesquisa precisa de um termo
+        section.innerHTML = "<p>Nada foi encontrado. É preciso digitar o nome de um filme ou sinopse.</p>";
         return;
     }
 
-    // Converte o campo de pesquisa para minúsculas para comparação insensível a maiúsculas/minúsculas
+    // Converte o termo de pesquisa para minúsculas para garantir a comparação insensível a maiúsculas/minúsculas
     campoPesquisa = campoPesquisa.toLowerCase();
 
-    // Percorre cada item de dados e cria o HTML para cada um
+    // Percorre cada item de dados e cria o HTML para exibir os resultados
     for (let dado of dados) {
+        // Converte o título do filme e a sinopse para minúsculas para comparação
         let filme = dado.filme.toLowerCase();
         let sinopse = dado.sinopse.toLowerCase();
 
-        // Verifica se o título do filme ou a sinopse incluem o texto pesquisado
+        // Verifica se o título do filme ou a sinopse contêm o texto pesquisado
         if (filme.includes(campoPesquisa) || sinopse.includes(campoPesquisa)) {
+            // Se o termo de pesquisa for encontrado, adiciona um bloco HTML com as informações do filme
             resultados += `
             <div class="item-resultado">
                 <h2>
@@ -42,9 +46,11 @@ function pesquisar() {
         }
     }
     
-    if("!resultados"){
-        resultados = "<p>Nada foi encontrado.</p>"
+    // Se não houver resultados, exibe uma mensagem de "Nada foi encontrado"
+    if (!resultados) {
+        resultados = "<p>Nada foi encontrado.</p>";
     }
-    // Atualiza a seção com o HTML gerado para mostrar os resultados
-    section.innerHTML = resultados || '<p>Nada foi encontrado</p>';
+    
+    // Atualiza o conteúdo da seção com o HTML gerado para mostrar os resultados ou a mensagem de "Nada foi encontrado"
+    section.innerHTML = resultados;
 }
