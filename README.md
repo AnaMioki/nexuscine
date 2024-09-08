@@ -1,11 +1,11 @@
-# NEXUSCINE
+#  NEXUSCINE 🎬
 
 NEXUSCINE é uma plataforma de pesquisa dedicada a filmes de ficção científica. O projeto oferece uma interface simples e moderna, permitindo aos usuários encontrarem informações detalhadas sobre filmes de seu interesse, incluindo sinopses, elenco, diretores, e muito mais.
 
 ## Funcionalidades
 
-- **Campo de Pesquisa**: Permite ao usuário buscar filmes digitando o título no campo de entrada.
-- **Resultados Detalhados**: Para cada filme pesquisado, são exibidos:
+- **Campo de Pesquisa 🔍**: Permite ao usuário buscar filmes digitando o título no campo de entrada.
+- **Resultados Detalhados 📊**: Para cada filme pesquisado, são exibidos:
   - Título
   - Diretor
   - Elenco
@@ -14,8 +14,8 @@ NEXUSCINE é uma plataforma de pesquisa dedicada a filmes de ficção científic
   - Gênero
   - Plataformas de streaming
   - Curiosidades
-- **Animações**: Efeitos visuais sutis, como o movimento de estrelas no fundo e animações de fade, proporcionam uma experiência imersiva.
-- **Layout Responsivo**: O site se adapta para diferentes tamanhos de tela, oferecendo uma experiência otimizada em dispositivos móveis e desktops.
+- **Animações ✨**: Efeitos visuais sutis, como o movimento de estrelas no fundo e animações de fade, proporcionam uma experiência imersiva.
+- **Layout Responsivo 📱💻**: O site se adapta para diferentes tamanhos de tela, oferecendo uma experiência otimizada em dispositivos móveis e desktops.
 
 ## Tecnologias Utilizadas
 
@@ -48,6 +48,6 @@ NEXUSCINE é uma plataforma de pesquisa dedicada a filmes de ficção científic
   Abra o arquivo index.html no navegador para ver o site em funcionamento.
 
 ## Melhorias Futuras
-Adicionar mais informações sobre os filmes, como trailers e reviews.
-Implementar filtros avançados (por gênero, diretor, ano, etc.).
-Melhorar a integração com APIs de filmes para exibir resultados mais precisos.
+Adicionar mais informações sobre os filmes, como trailers e reviews 🎥
+Implementar filtros avançados (por gênero, diretor, ano, etc.)  🔎
+Melhorar a integração com APIs de filmes para exibir resultados mais precisos 📈
